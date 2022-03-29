@@ -6,8 +6,6 @@
 
 ## Project Overview 📄
 
-----
-
 ### Overview
 
 Please provide the following:
@@ -33,8 +31,6 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 
 ## Team 👥
-
-----
 
 ### Team members
 

@@ -10,3 +10,8 @@
 5. In the `README.md` file of the newly created project folder, fill in the project information. The more complete the information you provide, the more certain our attitude towards the project team will be. The template for providing information: [applications/application-template-project/README.md](https://github.com/Acala-EVM-Dapps/Acala-PolkaWorld-Dapp-Hackathon-2022/blob/main/applications/application-template-project/README.md)
 6. Once done, create a pull request. Pull requests should only have files under a new folder - the new project folder you created from the template.
 
+## Tutorials And Technical Discussions 🛰
+
+- [Acala EVM+ Wiki](https://evmdocs.acala.network/)
+- [Discord](https://discord.com/invite/6QHVY4X)
+- [Linktree](https://linktr.ee/acalanetwork)

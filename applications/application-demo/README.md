@@ -2,7 +2,8 @@
 
 - Project Name: Name of your project (e.g. RiverSwap)
 - Team Name: Legal name of your team (e.g. River)
-- Project online usage link：https://
+- Project online usage link: https://
+- Payment Address: Acala(aUSD) payment address.
 
 ## Project Overview 📄
 

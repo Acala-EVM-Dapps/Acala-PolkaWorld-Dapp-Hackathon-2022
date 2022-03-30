@@ -12,6 +12,7 @@
 
 ## Tutorials And Technical Discussions 🛰
 
+- [Acala Wiki](https://wiki.acala.network/)
 - [Acala EVM+ Wiki](https://evmdocs.acala.network/)
 - [Discord](https://discord.com/invite/6QHVY4X)
 - [Linktree](https://linktr.ee/acalanetwork)

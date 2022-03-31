@@ -7,15 +7,15 @@
 3. Name the new folder after your project: project_name/.
 4. In your newly created project folder, upload your project full source code for review. (It is allowed to not upload the project code when submitting the application for the first time, and upload it multiple times in the future).
 5. In the `README.md` file of the newly created project folder, fill in the project information (First submission is allowed to fill in [TODO]). The more complete the information you provide, the more certain our attitude towards the project team will be. The template for providing information: [applications/application-template-project/README.md](https://github.com/Acala-EVM-Dapps/Acala-PolkaWorld-Dapp-Hackathon-2022/blob/main/applications/application-template-project/README.md)
-6. Once done, create a pull request. Pull requests should only have files under a new folder - the new project folder you created from the template.
+6. Once done, create a pull request. Pull requests should only have files under a new folder - the new project folder you created from the template. [application-demo](https://github.com/Acala-EVM-Dapps/Acala-PolkaWorld-Dapp-Hackathon-2022/pull/1/files) pull request.
 
 
-## Hack Directions 🎏
+## Hacking Directions 🎏
 
-1. Any DApp deployed based on Acala EVM+ that drives the growth and practicality of aUSD, including but not limited to DEX, Money Markets, Derivatives, DAOs, Asset Management , payment and other applications;
-2. Parachain infrastructure, wallets or other basic development tools that are supported to the aUSD ecosystem;
-3. Any EVM+-based DeFi, Gamefi, NFT, DAO And Other Applications.
-4. And welcome any innovative team to build on Acala network!
+1. aUSD-foucus DApps, compatible to Acala EVM+, driving to grow the usage of aUSD，including but not limited to DEX, Money Markets, Derivatives, DAOs, Asset Management , payment and other applications, etc. 
+2. Infrastructure for parachains , wallet and basic development tools for aUSD ecosystem;
+3. DeFi, Gamefi, NFT, DAO and Other Applications, which are compatible to EVM+
+4. Any team with innovative idea is welcomed to build on Acala network.
 
 ## Schedule 🗓
 

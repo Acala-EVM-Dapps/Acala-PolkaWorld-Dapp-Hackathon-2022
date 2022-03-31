@@ -22,8 +22,8 @@
 1. Github application registration: Deadline April 17
 2. Primary: April 18 - April 22
 3. Selected teams are invited to join the group: April 25
-4. EVM+ Workshop Q&A #1: April 26
-5. EVM+ Workshop Q&A #2: May 11
+4. EVM+ Workshop Q&A (1): April 26
+5. EVM+ Workshop Q&A (2): May 11
 6. Entry optimization and adjustment: April 26 - May 13
 7. Hackathon Online Demo + Judges Scoring: May 14
 8. Announcement of winners: May 15

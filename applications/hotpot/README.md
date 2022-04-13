@@ -52,7 +52,7 @@ Our previous achievements inside polkadot ecosystem including but not limited to
 
 ### Future Plans
 
-Here is a detailed milestone for our project. 
+Here is a detailed milestone for our project. We are dedicated to maintain this project after the hackathon. 
 
 
 **Milestone 1 (Proof-of-concept stage/Hackathon Stage)**

@@ -44,3 +44,11 @@ A codeless DAO launching toolkit based on bonding curve
   - [ ] complete the smart contact audit
   - [ ] launch DAOs on our platform by collaborating with different communities.
 
+# Team
+Our previous achievements inside polkadot ecosystem including but not limited to
+ - [x] Delivered presentation at Polkadot decoded 2019 and being selected as finalist for polkadot decoded conference 2022
+ - [ ] Successfully completed multiple grants from Polkadot ecosystem
+ - [ ] Rich experience in web3.0 development
+
+We have a dream. We are here, in the territory of Web3.0, only for three purposes. Fair, fair, and fucking fair.
+

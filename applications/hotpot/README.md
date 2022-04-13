@@ -1,6 +1,11 @@
 # Hotpot 
 A codeless DAO launching toolkit based on bonding curve
 
+# Demo
+
+Website: https://hotpot.network
+
+Video: https://hotpot.network/demo.mp4
 
 # Project Description
 

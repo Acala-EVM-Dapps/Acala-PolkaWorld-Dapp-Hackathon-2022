@@ -1,9 +1,9 @@
 # Acala x PolkaWorld Dapp Hackathon 2022
 
-- Project Name: Name of your project (e.g. RiverSwap)
-- Team Name: Legal name of your team (e.g. River)
-- Project online usage link: https://
-- Payment Address: Acala(aUSD) payment address.
+- Project Name: MetaGamiMall Acala Meta Hub
+- Team Name: Meta Live Studio
+- Project online usage link: https://https://play.decentraland.org/?island=I2sim0&position=145%2C60&realm=dg
+- Payment Address:14uqGUKxzLwHjGnyhGVPbr5nV47GQYDTwfLudRiC6deEyEKp
 
 ## Project Overview 📄
 
@@ -12,6 +12,7 @@
 Please provide the following:
 
 - If the name of your project is not descriptive, a tag line (one sentence summary).
+-
 - A brief description of your project.
 - An indication of how your project relates to / integrates into Acala / Karura EVM+.
 - An indication of why your team is interested in creating this project.

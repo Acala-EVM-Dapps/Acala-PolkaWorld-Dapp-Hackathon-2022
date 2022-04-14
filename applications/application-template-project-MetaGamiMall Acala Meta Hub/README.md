@@ -36,6 +36,7 @@ stage three - ausd airdro events holding
 Stage fOUR - FULLY SUPPORT acala ecosystem
 
 - If necessary, please provide relevant test usage documentation.
+- https://play.decentraland.org/?island=I2sim0&position=145%2C60&realm=dg
 
 ### Ecosystem Fit
 

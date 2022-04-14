@@ -17,7 +17,6 @@ Please provide the following:
 - we will add asud meta-hub into our metagami mall and share our traffic to it. It will help promote Acala spirits and expand the use case of ausd in ETHerum. At first, it can be used as the exhibition hall for metaverse visitors, and then gradually transfer them to become Acala DeFi users. When the acala cross chain service & metaverse infrastructures are mature, we will add ausd airdrop functions for the visitors. in the future, it can be used as a acala portal and serve the aUSD’s ecology as well as other supports.
 - An indication of how your project relates to / integrates into Acala / Karura EVM+.
 - First, it can be a Metaverse social and exhibition  center for Acala community, and second, it will be uses as a aUSD airdrop center in the metaverse. And in the fuutre, we can expand the use case and fully support Acala ecosystem.
-
 - An indication of why your team is interested in creating this project.
 - We are professional Metaverse Developers that interested in Acala products and hope to assist Acala's promotion in Decentraland and Metaverse
 

@@ -66,14 +66,16 @@ We have the ability to bridge metaverse to Acala system, and our metaverse devel
 - Contact Name: Full name of the contact person in your team
 - Meta Charlie
 - 
-- Contact Email: Contact email (e.g. john@river.io)
-- Website: metalivestuidio@gmail.com
+- Contact Email:metalivestuidio@gmail.com
+- Website:
+- Meta Live Studio: https://metalivestudio.com/
+- MetaDoge https://www.metadoge.art 
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. 
 
-1/ As metaverse developer: We have created multiple, iconic architectures in metaverses, details check here: https://metalivestudio.com/
+1/ As metaverse developer: We have created multiple, iconic architectures in metaverses, details check here: 
 2/ As Metaverse operator: Our own project MetaGamiMall & MetaDoge has received  Decentraland 220k USDc grant (achieved), achieved 1000+ VISITS IN EACH SINGLE EVENT aiming to create 1000+ DAILY ACTIVE USERS (ONGOING), 
 MetaGamiMall visit: https://play.decentraland.org/?island=I2sim0&position=145%2C60&realm=dg 
 MetaDoge details check here: https://www.metadoge.art

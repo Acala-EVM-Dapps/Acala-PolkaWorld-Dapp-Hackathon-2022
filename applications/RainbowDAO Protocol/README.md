@@ -2,10 +2,34 @@
 
 - Project Name: RainbowDAO Protocol
 - Team Name: RainbowCity Foundation
-- Project online usage link: 
+- Project online usage link: http://daofactoryacala.rainbowdao.io/
 - Payment Address: Acala(aUSD) payment address.
-- Video URL:
-- Testnet : https://tc7-eth.aca-dev.network
+- Video URL: 
+
+## Testnet Deployment Information
+
+Network Name: Acala Test Network 
+RPC URL: https://tc7-eth.aca-dev.network
+
+Contract deployment address
+
+DaoFactory: 0x0fd9968e36523466a9c9a38d2581fe0e199f8161
+
+Authority: 0x8bBef131a546d8151297e96C68AE614E5a80037d
+
+DaoBaseInfo: 0xb8Fda38562bd77dD8D2A0335e539D4188DF030a3
+
+DaoManage: 0x2b981316D9680443D590914916BeaF7d7A136Bf0
+
+DaoMembers: 0xe1240c60f37ae1CdeC036591C9814c1Fce8d986c
+
+ERC20Factory: 0x2697c5DAC9c13D9EA97F097ee5E7702d195E28dc
+
+RouteManage: 0xD1279a3EC682439589B3AACfC5618b74439f8168
+
+Vault: 0xeB317D6422F25887B4Fac0b880aBf4Da6040174F
+
+Vote: 0xf9A3f8eb156B49Ae50ebe0A9e45A46aa22766795
 
 ## Project Overview 📄
 

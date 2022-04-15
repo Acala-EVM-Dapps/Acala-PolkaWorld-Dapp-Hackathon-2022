@@ -2,8 +2,10 @@
 
 - Project Name: RainbowDAO Protocol
 - Team Name: RainbowCity Foundation
-- Project online usage link: https://
+- Project online usage link: 
 - Payment Address: Acala(aUSD) payment address.
+- Video URL:
+- Testnet : https://tc7-eth.aca-dev.network
 
 ## Project Overview 📄
 
@@ -44,7 +46,6 @@ For example, a DEX liquidity controller can be created. Through this controller,
 
 Each controller is contained by governance DAO of the DAO and is decided whether to be put into use or not by community voting and referendum. In this way, as long as we have a clear demand and tailor an independent DCV controller in advance, then we can govern the DAO to operate the corresponding DCV controller, achieving unlimited types of operations. The richer our controllers are, the more diversified the management of funds in the DCV.
 
-// Video URL
 
 ### Ecosystem Fit
 

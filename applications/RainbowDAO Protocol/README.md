@@ -2,9 +2,9 @@
 
 - Project Name: RainbowDAO Protocol
 - Team Name: RainbowCity Foundation
-- Project online usage link: 
-- Payment Address: Acala(aUSD) payment address.
-- Video URL:
+- Project online usage link: http://daofactoryacala.rainbowdao.io/
+- Payment Address: 258vjrgUqRFRdGcDZuzWnWEPwKbshm4seXo6FUsUHtUTw6NL
+- Video URL: https://youtu.be/rolQvBTWt2E
 
 ## Testnet Deployment Information
 
@@ -41,18 +41,18 @@ RainbowDAO protocol is a multi-chain infrastructure service protocol that focuse
 RainbowDAO Protocol Solidity will be mainly deployed on Ethereum, BNB, Poygon, Avalanche,Fantom and any EVM supportive L2 networks, as well as on all EVM supportive para-chains within the Polkadot ecosystem.RainbowDAO Protocol Ink! will be deployed on all Wasm supportive parachains within the Polkadot ecosystem, to provide DAO infrastructure service for all DAO organizations on the parachains. RainbowDAO Protocol Near will then mainly deployed on NEAR network, to provide DAO infrastructure service for all DAO organizations on it.
 As the RainbowDAO Protocol expands , we are working on new versions for other new public chains such as Solana, Terra, Agorand and Cosmos. Meanwhile, we are diving into the development of DAO infrastructure products that are based on Acala with Substrate.
 
-### Project Details
-
 To better serve all types of DAO organizations, we have built a complete set of DAO infrastructure technical lines focusing on the whole DAO ecosystem, including eight categories of more than 30 independent Web3 tools-kits.
 These eight categories comprise of DAO Organizational Management System, DAO Token Management System, DAO Personnel Management System,
 DAO Voting and Proposal Management system, DAO Financial and Vault Management system, DAO Fund raising Management System , DAO Marketing and Contributions Management System and DAO ecological tool management system.
 The eight ecosystems contain thirty independent management modules, each of which is an independent Web3 tools system. All modules make up the complete DAO infrastructure technical lines and each module can independently function or can be freely combined with one another through smart contracts. Therefore, all types of DAO organizations' demand has been met in terms of unified features as well as diversity needs and this makes our DAO organizations flexible as Lego come true.
 
-![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/11-Rainbow-DAO-Protocol.png)
-
 Meanwhile, in the RainbowDAO Protocol, we brought up a new concept of DCV to take it as the center of all DAO tools development. DCV stands for DAO Controlled Value.
 In this context, value is controlled by different levels of DAO rather than by certain individual or any centralized entity. Through the governing contracts of DAO, DAO controls every core parameter and decision switch in the protocol and it is determined by all governing Token holders through voting to move forward.
 The overall planning of RainbowDAO Protocol is too huge, and the overall development is expected to take 3 to 5 years. We will decompose the entire development plan into different stages, rhythm and step-by-step implementation.
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/11-Rainbow-DAO-Protocol.png)
+
+### Project Details
 
 Based on the RainbowDAO Protocol, we realized three major innovations of DAO protocol, which are in line with the eight major characteristics and eight principles of the development of the industry. In this chapter, we will elaborate on these ideas and concepts to share them with all those who are interested in the development of DAO industry.
 
@@ -79,6 +79,81 @@ Based on the function of governance DAO and RainbowCore, we developed the DCV co
 For example, a DEX liquidity controller can be created. Through this controller, we can control the addition or removal of liquidity from the funds in the DCV to the specified DEX trading pair, so that the funds can increase in value and generate income. We can also create a stablecoin DCV controller and use this controller to control the funds in the DCV to mint stablecoins.
 
 Each controller is contained by governance DAO of the DAO and is decided whether to be put into use or not by community voting and referendum. In this way, as long as we have a clear demand and tailor an independent DCV controller in advance, then we can govern the DAO to operate the corresponding DCV controller, achieving unlimited types of operations. The richer our controllers are, the more diversified the management of funds in the DCV.
+
+
+### Product function display of RainbowDAO protocol
+
+This chapter will elaborate the functions of three products of the RainbowDAO protocol, especially the establishment of the product structure of the DAO factory and the logical relationship between different levels of DAOs to offer you a clear understanding of the functional framework of the RainbowDAO protocol.
+
+The RainbowDAO protocol belongs to the DAO basic framework protocol. Anyone and any organization can establish an independent DAO with the help the RainbowDAO protocol. We call this DAO an independent DAO. This is the most basic functional module of a DAO. By this independent DAO, three-part expansion can be carried our and finally make this DAO infinitely upgradeable and expandable, allowing it to accommodate tens of thousands or even hundreds of thousands of user groups.
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/8-Product-function-display-1.png)
+
+⑴ Scale up: Alliance DAO
+An independent DAO can go upwards - join a Alliance DAO and become a part of it, such as investment Alliance DAO, media Alliance DAO, social Alliance DAO, development Alliance DAO, etc. Similarly, DAO alliances in different regions can be set as well, such as European Alliance DAO, Asian Alliance DAO and American Alliance DAO.
+
+In Alliance DAO management, due to the nature of the alliance, an independent DAO can freely choose to join or leave an alliance without the permission of the Alliance DAO. Alliance DAO have no rigid management or ownership requirements between each other.
+
+⑵ Scale Out: Parent DAO and Child DAO
+An independent DAO can go downwards to establish its child DAO, like the relationship between the parent company and the subsidiary. Each child DAO is identical to an independent DAO in terms of functional modules but it belongs to this independent DAO. The parent DAO(independent DAO) has the right to govern the child DAO, which cannot exist independently of the parent DAO unless approved by a referendum launched by its parent DAO.
+
+The child DAO is created by the parent DAO, which has the authority to control the child DAO. The subDAO established by the child DAO can be governed by the child DAO and the parent DAO jointly. The child DAO has authority only over its direct subDAO. For instance: A(a parent DAO) creates B(a child DAO), B creates C(the subDAO of B) and C creates D(the subDAO of C). A governs B, C and D. B can only governs C and B has no right to control D. The parent DAO can perform cross-level management on all child DAOs, but the child DAO cannot do cross-level management.
+
+⑶ Scale In: DAO department management
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/8-Product-function-display-2.png)
+
+Each independent DAO can go inward to establish a management department of its own. In this way, each independent DAO can have its own clear organizational structure. This is also the core function of the RainbowDAO protocol that we have been emphasizing. We believe that any DAO should have multiple departments working together.
+
+In the RainbowDAO protocol, each department established by an independent DAO is equivalent to an independent small DAO and has various basic functions of DAO. It's just that it is not an independent DAO in nature, but a sub department of an independent DAO. In our overall product planning, the management authority of these sub departments is demonstrated by multi-signature smart contracts - a multi-signature committee responsible for managing this department, instead of by voting conducted by all DAO members to achieve governance. That is the decentralization mechanism of DAO management, which delegates power to different departments.
+
+In the same way, a department can continue to set up departments to further decentralize and distribute powers so that the collaborative work can be finished through the multiple layers of the department. This is the most basic function we believe a DAO with hundreds of thousands of members must have.
+
+In this diagram over the functions of RainbowDAO products, examples are provided to help you understand the product logic. First of all, we have an independent DAO. In the department management of this independent DAO, we established five independent departments: the Human Resources Management Committee DAO, the Financial Management Committee DAO, the Technical Management Committee DAO, the Operation Management Committee DAO and Investment Management Committee DAO. These five departments are responsible for the specific operations of this independent DAO.
+
+Besides, these five independent departments are divided into different groups to refine the division of labor. Here are some examples: the Human Resources Committee DAO is divided into organizational management group and the salary management group; the Financial Management Committee DAO is divided into the budget management group and the fund allocation management group; the Technology Management Committee DAO is divided into the technology development management group and grant management group; the Operation Management Committee is divided into the brand management group and the promotion management group; the Investment Management Committee is divided into the project review management group and the foreign investment management group and so on.
+
+Most of these different management groups also exist as multi-signature management committees. That is also a function of DAO's delegation of power to the subordinate independent departments. Complex coordination is achieved through refined division of labor, which is of the same pattern as the operation of a company. Only with clear division of labor and responsibilities can efficiency and execution be possibly improved.
+
+### RainbowDAO protocol design mechanism
+
+By the information above, you can learn the planning and design of the RainbowDAO protocol. That is a large project that allows DAO to expand and upgrade infinitely. So how is the RainbowDAO protocol constructed as a whole? What is the structure of the protocol itself? In this part, we’ll focus on the architecture design of the RainbowDAO protocol itself to give you a better understanding of the implementation method of the RainbowDAO protocol.
+
+You can understand the design structure of the RainbowDAO protocol from the following three levels step by step.
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/9-Design-Mechanism-1.png)
+
+⑴ Tier 1 Architecture: RBD Governance Dao
+The first level of the RainbowDAO protocol is RBD governance DAO. RBD is the governance token of the RainbowDAO protocol. The holders of RBD are members of the RBD governance DAO and are responsible for the governance of the entire RainbowDAO protocol. The RBD governance DAO manages all the parameters and conditions of the RainbowDAO protocol as a whole, and RBD holders can determine the modification and optimization of each parameter of the RainbowDAO protocol through a referendum, realizing the unlimited expansion and upgrade of the RainbowDAO protocol. The RBD governance DAO belongs to the overall control center of the RainbowDAO protocol, and all management powers belong to the owners of all RBD governance tokens.
+
+⑵Tier 2 Architecture: Basic Protocol Layer
+The second level of the RainbowDAO protocol is the protocol of the RainbowDAO. It is a part of the protocol, not part of the DAO created by the protocol. It contains six parts: the rainbow core contract, the membership management contract, the revenue management contract, the web3 suite tool contract, the DCV controller contract and the DAO factory contract. The DAO factory contract also belongs to the third level of the RainbowDAO protocol, which is mainly used for the control and management of the DAO created by the protocol.
+
+The rainbow core contract consists of four parts: the role management contract, the authority management contract, the route management contract and the rainbow core control contract. It is the permission control center of the RainbowDAO protocol, which manages the authority and roles of the entire protocol and is responsible for the iteration and upgrade of the RainbowDAO protocol.
+
+The membership management contract is responsible for managing the members of the entire protocol, including the management of the identity information of the member and the management of the invitation or recommendation among members. All invitation information is stored in this contract. In the future, all modules related to member management will be put in this part, including but not limited to credit system, reputation system, employee recruitment system, work representation system, etc.
+
+The revenue management contract belongs to the revenue management control center of the RainbowDAO protocol. RainbowDAO protocol itself sets up a series of income categories. Fees are required when contracts are applied; DCV vault transfers will charge a certain percentage of transfer fees; the usage fees of the protocol will be charged based on the number of members in a DAO. In this way, the RainbowDAO protocol can capture value through the diversification of income types. More people using the agreement means more income and finally, income will go back to the holders of RBD in a certain proportion.
+
+Web3 suite tool contracts is the center of management for some tool contracts, such as ERC20 token manufacturing factory contracts, multi-sign wallet management contracts, token airdrop system contracts, token lock-up system contracts, etc. In the future, tool contracts can be under this module.
+
+The DCV controller contract is the center of controller management of the RainbowDAO protocol. Various controllers can be made here, especially those related to DeFi management.
+
+⑶ Tier 3 Architecture:DAO Factory
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/9-Design-Mechanism-2.png)
+
+The above contract belongs to the overall level of the RainbowDAO protocol. The third level belongs to the DAO factory contract, which is mainly used for the creation and management of DAO in a large scale.
+
+The DAO factory contract can be divided into three parts. The first part is DAO type contract. These types are independent DAO, alliance DAO and parent-child DAO. That determines the basic attribute of the established DAO.
+
+The second part is the DAO initialization contract, which is used for DAO creation and information initialization and the third part is the DAO management contract for the basic management of the contract after the establishment of the DAO.
+
+The DAO management contract also has the right to conduct management. There are three types of administrators: single wallet address, multi-signature wallet address and the governance token DAO. Generally, the governance DAO acts as an administrator by default, and all governance token holders govern the entire DAO. Management authority can be transferred between different categories.
+
+The DAO management contract is divided into 7 modules. The first module is the DAO basic setting contract, responsible for the setting of DAO basic information. The second module is the DAO authority management contract, responsible for the authority and role management in this DAO and its termination and liquidation. The third module is the DAO member management contract, responsible for the management of members in this DAO, including the entry threshold and the deletion of members. The fourth module is the DAO treasury management contract, responsible for management of DAO vault. The fifth module is the DAO voting management contract, responsible for a series of settings of voting rights. The sixth module is the DAO proposal management contract, responsible for DAO proposal management. The seventh module is the DAO department management contract, responsible for the department management of this DAO.
+
+The above three major parts constitute the basic framework of the RainbowDAO protocol. RainbowDAO protocol spares no effort to achieve upgrading and expansion on the basis of these basic frameworks, to truly evolve into a viable and promising system and become the infrastructure of DAO industry.
 
 
 ### Ecosystem Fit
@@ -152,8 +227,6 @@ The RainbowDAO protocol can be combined, extended, and disassembled, which gives
 Based on the first 7 characteristics, the RainbowDAO protocol will evolve into a viable system that can upgrade infinitely with a decentralized idea.
 
 
-
-
 ## Team 👥
 
 ### Team members
@@ -176,13 +249,25 @@ Team members:
 
 ### Team's experience
 
-Awards and honors:
+#### Awards and Honors
 
-1.Rainbowcity Foundation announces official launch of DAO infrastructure project, Dec 17,2021
+- RainbowDAO protocol received contributions from over 5000 contributors in Gitcoin 12 grant, becoming one of the most popular projects in Gitcoin 12.  https://gitcoin.co/grants/4019/rainbowdao-protocol
 
-https://ambcrypto.com/rainbowcity-foundation-announces-official-launch-of-dao-infrastructure-project/
+- RainbowDAO protocol won three awards in 2021 DAO  Global Hackathon , including DAO Factory winning the first prize in Multi-Chain Track,  NFT the second prize in Community & NFTs track, Multisig Committee the third prize in Core DAO Tech track.  https://hackforfreedom.org/#winners
 
-2.Rainbowcity Foundation Launches RainbowDAO Protocol in Gitcoin Grant 12 https://cryptopotato.com/rainbowcity-foundation-launches-rainbowdao-protocol-in-gitcoin-grant-12/,, Dec 17,2021
+- RainbowDAO protocol won the first prize in DAO tool track in Metaverse Hackathon.  https://metaversealliance.com/results
+
+- RainbowDAO Foundation received the first grant from Web3 Foundation, becoming the 12th recipient of the Web3 grant.  https://medium.com/web3foundation/web3-foundation-grants-wave-12-recipients-7e2b6bfb69be
+
+- RainbowDAO team won three awards in the NEAR MetaBUILD Hackathon sponsored by Near Foundation.  https://devpost.com/submit-to/13979-near-metabuild-hackathon/manage/submissions
+
+#### Media coverage
+
+1.Rainbowcity Foundation announces official launch of DAO infrastructure project
+
+https://ambcrypto.com/rainbowcity-foundation-announces-official-launch-of-dao-infrastructure-project/, Dec 17,2021
+
+2.Rainbowcity Foundation Launches RainbowDAO Protocol in Gitcoin Grant 12 https://cryptopotato.com/rainbowcity-foundation-launches-rainbowdao-protocol-in-gitcoin-grant-12/, Dec 17,2021
 
 3.Rainbowcity Foundation Announces the Official Launch of DAO Infrastructure Project RainbowDAO Protocol in Gitcoin Grant 12 https://u.today/press-releases/rainbowcity-foundation-announces-the-official-launch-of-dao-infrastructure-project, Dec 16,2021
 

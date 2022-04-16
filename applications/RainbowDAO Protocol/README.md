@@ -2,13 +2,13 @@
 
 - Project Name: RainbowDAO Protocol
 - Team Name: RainbowCity Foundation
-- Project online usage link: http://daofactoryacala.rainbowdao.io/
+- Project online usage link: 
 - Payment Address: Acala(aUSD) payment address.
-- Video URL: 
+- Video URL:
 
 ## Testnet Deployment Information
 
-Network Name: Acala Test Network 
+Network Name: Acala Test Network  
 RPC URL: https://tc7-eth.aca-dev.network
 
 Contract deployment address
@@ -37,12 +37,22 @@ Vote: 0xf9A3f8eb156B49Ae50ebe0A9e45A46aa22766795
 
 RainbowDAO Protocol is Multi-chain DAO Infrastructure Service Protocol
 
-RainbowDAO protocol is a multi-chain infrastructure service protocol that focuses on ceating the components of Web3. Anyone can create and manage their own DAO organization through it, including independent DAO,alliance DAO, parent DAO and child DAO. Besides, a management department can also be achieved with the DAO that the protocol creates. There are two versions of RainbowDAO Protocol, Solidity version on EVM and Ink! version on WASM.The Solidity version is mainly deployed on Ethereum, BSC, Polygon, Avalanche, Fantom, and various L2 networks; the Ink! version is mainly deployed on the parallel chains on the Polkadot and Kusama relay chains, as well as other blockchains developed with the substrate framework,such as Acala.
-
-- An indication of how your project relates to / integrates into Acala / Karura EVM+.
-- An indication of why your team is interested in creating this project.
+RainbowDAO protocol is a multi-chain infrastructure service protocol that focuses on ceating the components of Web3. Anyone can create and manage their own DAO organization through it, including independent DAO,alliance DAO, parent DAO and child DAO. Besides, a management department can also be achieved with the DAO that the protocol creates. There are currently three versions of RainbowDAO Protocol, which are developed in three different smart contract languages: Solidity, Ink! and Near.
+RainbowDAO Protocol Solidity will be mainly deployed on Ethereum, BNB, Poygon, Avalanche,Fantom and any EVM supportive L2 networks, as well as on all EVM supportive para-chains within the Polkadot ecosystem.RainbowDAO Protocol Ink! will be deployed on all Wasm supportive parachains within the Polkadot ecosystem, to provide DAO infrastructure service for all DAO organizations on the parachains. RainbowDAO Protocol Near will then mainly deployed on NEAR network, to provide DAO infrastructure service for all DAO organizations on it.
+As the RainbowDAO Protocol expands , we are working on new versions for other new public chains such as Solana, Terra, Agorand and Cosmos. Meanwhile, we are diving into the development of DAO infrastructure products that are based on Acala with Substrate.
 
 ### Project Details
+
+To better serve all types of DAO organizations, we have built a complete set of DAO infrastructure technical lines focusing on the whole DAO ecosystem, including eight categories of more than 30 independent Web3 tools-kits.
+These eight categories comprise of DAO Organizational Management System, DAO Token Management System, DAO Personnel Management System,
+DAO Voting and Proposal Management system, DAO Financial and Vault Management system, DAO Fund raising Management System , DAO Marketing and Contributions Management System and DAO ecological tool management system.
+The eight ecosystems contain thirty independent management modules, each of which is an independent Web3 tools system. All modules make up the complete DAO infrastructure technical lines and each module can independently function or can be freely combined with one another through smart contracts. Therefore, all types of DAO organizations' demand has been met in terms of unified features as well as diversity needs and this makes our DAO organizations flexible as Lego come true.
+
+![](https://raw.githubusercontent.com/RainbowDAO/01-RainbowDAO-Factory/main/PIC/RainbowDAO/11-Rainbow-DAO-Protocol.png)
+
+Meanwhile, in the RainbowDAO Protocol, we brought up a new concept of DCV to take it as the center of all DAO tools development. DCV stands for DAO Controlled Value.
+In this context, value is controlled by different levels of DAO rather than by certain individual or any centralized entity. Through the governing contracts of DAO, DAO controls every core parameter and decision switch in the protocol and it is determined by all governing Token holders through voting to move forward.
+The overall planning of RainbowDAO Protocol is too huge, and the overall development is expected to take 3 to 5 years. We will decompose the entire development plan into different stages, rhythm and step-by-step implementation.
 
 Based on the RainbowDAO Protocol, we realized three major innovations of DAO protocol, which are in line with the eight major characteristics and eight principles of the development of the industry. In this chapter, we will elaborate on these ideas and concepts to share them with all those who are interested in the development of DAO industry.
 
@@ -168,12 +178,25 @@ Team members:
 
 Awards and honors:
 
-- https://metaversealliance.com/results
-- https://hackforfreedom.org/#winners
-- https://dorahacks.io/zh/buidl/2394?roundProj=1553
-- https://devpost.com/software/bit-civilization?ref_content=my-projects-tab&ref_feature=my_projects
-- https://devpost.com/software/dao-exchange-pool-system?ref_content=my-projects-tab&ref_feature=my_projects
-- https://devpost.com/software/rainbowdao-protocol?ref_content=my-projects-tab&ref_feature=my_projects
+1.Rainbowcity Foundation announces official launch of DAO infrastructure project, Dec 17,2021
+
+https://ambcrypto.com/rainbowcity-foundation-announces-official-launch-of-dao-infrastructure-project/
+
+2.Rainbowcity Foundation Launches RainbowDAO Protocol in Gitcoin Grant 12 https://cryptopotato.com/rainbowcity-foundation-launches-rainbowdao-protocol-in-gitcoin-grant-12/,, Dec 17,2021
+
+3.Rainbowcity Foundation Announces the Official Launch of DAO Infrastructure Project RainbowDAO Protocol in Gitcoin Grant 12 https://u.today/press-releases/rainbowcity-foundation-announces-the-official-launch-of-dao-infrastructure-project, Dec 16,2021
+
+4.The 2021 DAO Global Hackathon ended and the RainbowDAO team won three awards! https://finance.yahoo.com/news/2021-dao-global-hackathon-ended-174200673.html?.tsrc=fin-srch, Dec 27, 2021
+
+5.The 2021 DAO Global Hackathon ended and the RainbowDAO team won three awards! https://apnews.com/press-release/kisspr/technology-philanthropy-singapore-baae13a7c821e4e7bcf0dc6c62de0b91, Dec 27, 2021
+
+6.RainbowDAO is the champion of Metaverse Hackathon in DAO tool track https://ambcrypto.com/rainbowdao-is-the-champion-of-metaverse-hackathon-in-dao-tool-track/, Feb 1, 2022
+
+7.Web3 Foundation Grants — Wave 12 Recipients https://medium.com/web3foundation/web3-foundation-grants-wave-12-recipients-7e2b6bfb69be, Jan 10, 2022
+
+8.Multi-chain DAO infrastructure protocol RainbowDAO receives a Web3 Foundation grant https://medium.com/rainbowcity/multi-chain-dao-infrastructure-protocol-rainbowdao-receives-a-web3-foundation-grant-143e9fac63bd, Feb 12, 2022
+
+9.Multi-Chain DAO Infrastructure Protocol RainbowDAO Receives a Web3 Foundation Grant https://coincodex.com/article/13686/multi-chain-dao-infrastructure-protocol-rainbowdao-receives-a-web3-foundation-grant/, Feb 16, 2022
 
 ### Future Plans
 - 2022/4 until 2022/6 : Focus on product development

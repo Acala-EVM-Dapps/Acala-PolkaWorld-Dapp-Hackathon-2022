@@ -37,7 +37,7 @@ We want to make a cheaper, fairer, faster and safer GameFi product. It’s a goo
 ### Contact
 
 - Contact Name: Full name of the contact person in your team
-- Contact Email: Contact email  niaoluo123@gmail.com
+- Contact Email: Contact email  kericboat@gmail.com
 - Website:
 
 ### Team's experience

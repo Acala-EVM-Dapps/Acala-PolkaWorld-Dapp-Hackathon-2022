@@ -1,32 +1,32 @@
 # Acala x PolkaWorld Dapp Hackathon 2022
 
-Project Name: Sirius Finance
-Team Name: Sirius Finance Team
-Project online usage link: https://www.sirius.finance/
-Payment Address: Wg8vPjUhTQx4JM88qsBKG6u2rXJbYCF7LxUxJvqtVvYnPzj
+- Project Name: Sirius Finance
+- Team Name: Sirius Finance Team
+- Project online usage link: https://www.sirius.finance/
+- Payment Address: Wg8vPjUhTQx4JM88qsBKG6u2rXJbYCF7LxUxJvqtVvYnPzj
 
 ## Project Overview 📄
 ### Overview
 
 Please provide the following:
 
-If the name of your project is not descriptive, a tag line (one sentence summary).
+- If the name of your project is not descriptive, a tag line (one sentence summary).
 The first cross-chain stablecoin AMM & LP farming center on Astar Network
 
-A brief description of your project.
+- A brief description of your project.
 Sirius Finance is a cross-chain stablecoin AMM, that attracts and locks tremendous value through stablecoins with low-slippage trading costs, attractive APY for liquidity providers, and allows for more financial innovations or yield enhancements for Polkadot users.
 
-An indication of how your project relates to / integrates into Acala / Karura EVM+.
+- An indication of how your project relates to / integrates into Acala / Karura EVM+.
 We will bring aUSD to Sirius’s base pool, expanding its use cases for stablecoin users. Ultimately, our goal is to serve as a low-slippage swap protocol that connects Polkadot, EVM-compatible chains, other major layer1 chains and expanding use cases from stablecoins to other similar valuable tokens. 
 
-An indication of why your team is interested in creating this project.
+- An indication of why your team is interested in creating this project.
 Stablecoins have over the past few years become a solid ground on which most investors hedge their assets against the highly volatile nature of cryptocurrency markets. The number of stablecoin specific AMMs which enable stableswaps can be counted on one hand and none can be found in the Polkadot ecosystem as at this moment. Curve, the first stablecoin DEX currently holds top spot when using Total Value Locked as the main metric for rating DeFi applications and this has been the case for a very long time. This shows investor’s demand for something less volatile for their assets and following the footsteps of Curve, Sirius Finance is launching the first Polkadot-native cross-chain liquidity pool exchange for stablecoins.
 
 On top of that, we follow the spirit of Defi 2.0, allowing all users to benefit from the protocol via veToken and other incentive mechanisms, encouraging all the users to actually participate in the protocol governance, eventually manage the protocol in a decentralized way, and provide stablecoin services for the Polkadot ecosystem.
 
 ### Project Details
 
-Detailed description of the core functionality of the project.
+- Detailed description of the core functionality of the project.
 Low slippage decentralized exchange for stablecoins
 Nearly no permanent loss with no opportunity costs
 Cross-chain: a DEX to connect Polkadot parachains via XCMP and Astar network, all EVM-compatible ecosystems via c-bridge, allowing stablecoin swaps between EVM-compatible chains and Polkadot ecosystem with one click
@@ -34,21 +34,21 @@ Low swap fees between stablecoins
 Yield farming
 Governance: users can lock their SRS to gain veSRS. VeSRS holders also share additional trading fees, and can vote on various pool parameters including pool weight, adding/removing metapools, gain boost factor, admin fee percentage, preferred rights for airdrop tokens, etc.
 
-Project deployment step instructions.
+- Project deployment step instructions.
 
-If necessary, please provide relevant test usage documentation.
+- If necessary, please provide relevant test usage documentation.
 
 ### Ecosystem Fit
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-Where and how does your project fit into the ecosystem?
+- Where and how does your project fit into the ecosystem?
 
 Built from and within the Astar Network, Sirius Finance aims to become the first polkadot-native stablecoin AMM and currency exchange hub on Polkadot through building base pools, metapools, and in the near future, legal fiat-pegged currency pools and tokenized derivatives. 
 
 Statistics are currently in favor of more DeFi protocols gaining adoption and usage. Most protocols have been able to lock more liquidity and attract more users than the majority of Centralized services in the blockchain space. The DeFi protocol with the highest TVL is Curve which is a stablecoin AMM and that's what Sirius finance is about. Most investors tend to hedge their investments in stablecoins, no wonder Curve is on top. We are looking to bring this same opportunity to a top 10 blockchain platform, Polkadot, beginning with its parachain Astar network which currently boasts of over $1.3 billion in TVL. We believe we are bringing an amazing use case and a market-fit product to the ecosystem.
 
-What need(s) does your project meet?
+- What need(s) does your project meet?
 Low slippage, we provide swap transactions at much lower slippage than market
 No impermanent loss
 Lack of deep liquidity to address volatility
@@ -56,21 +56,21 @@ Lack of yield farming opportunities for most stablecoin holders
 Lack of stablecoin specific DEX on Polkadot
 Limited arbitrage opportunities
 
-What makes your project unique?
+- What makes your project unique?
 
 Sirius Finance is designed to provide stablecoin services with low slippage and no impermanent loss, using an extremely user-friendly interface. We combined vetoken to our swap pool design, in hope of really building out a decentralized protocol. We value every user’s participation and contribution and that’s why we have the governance module, where veSRS holders can share additional trading fees, and vote on various pool parameters including pool weight, choosing metapools, boost factors and everything that can potentially determine final revenues, rewards and distributions. Based on Astar’s cross-chain nature, Sirius will connect dapps not only on Astar but the Polkadot ecosystem to get majority of the dapps connected to it to increase users, liquidity and TVL. In terms of technology, our protocol is going to be WASM and EVM-compatible, and implement XCMP on Polkadot, so that we could eventually connect stablecoins within and outside of the Polkadot ecosystem. 
 
 ## Team 👥
 ### Team members
 
-Name of team leader: William Chang
-Names of team members: Ronald, Vincent, 0xnomad, etc.
+- Name of team leader: William Chang
+- Names of team members: Ronald, Vincent, 0xnomad, etc.
 
 ### Contact
 
-Contact Name: Emmy Peng
-Contact Email: business@sirius.finance
-Website: sirius.finance
+- Contact Name: Emmy Peng
+- Contact Email: business@sirius.finance
+- Website: sirius.finance
 
 ### Team's experience
 
@@ -96,7 +96,7 @@ Vincent (Product Manager): Blockchain researcher since 2016. Cofounder of PolkaE
 
 Please include here
 
-how you intend to use, enhance, promote and support your project in the short term, and
+- how you intend to use, enhance, promote and support your project in the short term, and
 the team's long-term plans and intentions in relation to it.
 
 2022/4 until 2022/5/31: 

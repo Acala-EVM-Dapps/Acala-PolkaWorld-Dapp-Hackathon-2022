@@ -43,7 +43,7 @@ Sirius4Pool: 0x417E9d065ee22DFB7CC6C63C403600E27627F333
 **API**
 
 swap
-```
+```solidity
 function swap(
      uint8 tokenIndexFrom,
      uint8 tokenIndexTo,
@@ -54,7 +54,7 @@ function swap(
 ```
 
 addLiquidity
-```
+```solidity
 function addLiquidity(
      uint256[] calldata amounts,
      uint256 minToMint,
@@ -63,7 +63,8 @@ function addLiquidity(
 ```
 
 removeLiquidity
-```function removeLiquidity(
+```solidity
+function removeLiquidity(
      uint256 amount,
      uint256[] calldata minAmounts,
      uint256 deadline
@@ -71,7 +72,8 @@ removeLiquidity
 ```
  
 removeLiquidityOneToken
-```function removeLiquidityOneToken(
+```solidity
+function removeLiquidityOneToken(
      uint256 tokenAmount,
      uint8 tokenIndex,
      uint256 minAmount,
@@ -80,7 +82,7 @@ removeLiquidityOneToken
 ```
  
 removeLiquidityImbalance
- ```
+ ```solidity
  function removeLiquidityImbalance(
       uint256[] calldata amounts,
       uint256 maxBurnAmount,

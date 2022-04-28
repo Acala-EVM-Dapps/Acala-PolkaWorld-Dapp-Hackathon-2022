@@ -136,48 +136,45 @@ We are a team of 15 consisting of developers, project managers, marketers and ex
 20+ years experience in software development area, 5+ years experience in blockchain industry, consultant / researcher / tech leader for several Defi projects such as Olympus Labs, PolkaEx.
 
 - 0xnomad (Core Dev): <Br/>
-10+ years experience in software development area, 5+ years experience in online game development, 5 years experience in blockchain industry. Sophisticated at blockchain kernel technology and decentralized application design.
-Former game-server engineer at 4399.com, a forefront online game platform in China.
-Former senior blockchain engineer at liquefy.com, a STO platform in HK.
-Former senior blockchain architect at linear.finance(Symbol:LINA), a decentralized derivatives exchange on ETH/BSC/Moonbeam.
-Former senior blockchain architect at conv.finance(Symbol:CONV), a decentralized assets management platform on ETH/BSC/Moonbeam.
-Senior blockchain architect at polkaex.io(Symbol:PKEX), an IDO & AMM-swap platform on Astar/Shiden network.
+10+ years experience in software development area, 5+ years experience in online game development, 5 years experience in blockchain industry.<Br/> Sophisticated at blockchain kernel technology and decentralized application design.<Br/>
+Former game-server engineer at 4399.com, a forefront online game platform in China.<Br/>
+Former senior blockchain engineer at liquefy.com, a STO platform in HK.<Br/>
+Former senior blockchain architect at linear.finance(Symbol:LINA), a decentralized derivatives exchange on ETH/BSC/Moonbeam.<Br/>
+Former senior blockchain architect at conv.finance(Symbol:CONV), a decentralized assets management platform on ETH/BSC/Moonbeam.<Br/>
+Senior blockchain architect at polkaex.io(Symbol:PKEX), an IDO & AMM-swap platform on Astar/Shiden network.<Br/>
 
-William Chang (Founder): Blockchain enthusiast and investor since 2015. Cofounder of PolkaEx, of which the ATH rate of return reached over 1,000%.
+- William Chang (Founder):<Br/>
+Blockchain enthusiast and investor since 2015. Cofounder of PolkaEx, of which the ATH rate of return reached over 1,000%.<Br/>
 
-Vincent (Product Manager): Blockchain researcher since 2016. Cofounder of PolkaEx.
+- Vincent (Product Manager):<Br/>
+Blockchain researcher since 2016. Cofounder of PolkaEx.<Br/>
 
 ### Future Plans
 
-Please include here
+- 2022/4 until 2022/5/31:<Br/>
+Private A & B fundraise<Br/>
+Organize multiple AMAs to further promote<Br/>
+Build the Sirius ecosystem with partners on the Astar chain<Br/>
+Partnership rewarding program<Br/>
+Multisig for smart contracts<Br/>
+Rewarding dashboard launch (one place to see all rewards)<Br/>
+Public fundraise<Br/>
+Statistics / Analytics with subgraph<Br/>
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-the team's long-term plans and intentions in relation to it.
+- 2022 Q3: (Sirius Ecosystem)<Br/>
+Launch additional pools<Br/>
+Protocols optimization<Br/>
+LP Pools creation<Br/>
+Website V2 launch<Br/>
+DApp V2 launch to provide a smoother user experience<Br/>
+DAO launch<Br/>
+Permissionless pool creation<Br/>
+Sirius API & SDK publish<Br/>
+Unlock Transfer of $SRS<Br/>
+Launch pools for anyWBTC/cWBTC and/or anyETH/cETH<Br/>
 
-2022/4 until 2022/5/31: 
-Private A & B fundraise
-Organize multiple AMAs to further promote
-Build the Sirius ecosystem with partners on the Astar chain
-Partnership rewarding program
-Multisig for smart contracts
-Rewarding dashboard launch (one place to see all rewards)
-Public fundraise
-Statistics / Analytics with subgraph
-
-2022 Q3: (Sirius Ecosystem)
-Launch additional pools
-Protocols optimization
-LP Pools creation
-Website V2 launch
-DApp V2 launch to provide a smoother user experience
-DAO launch
-Permissionless pool creation
-Sirius API & SDK publish
-Unlock Transfer of $SRS
-Launch pools for anyWBTC/cWBTC and/or anyETH/cETH
-
-2022 Q4: (Multichain and DAO)
-Multichain/crosschain investigation
-Native bridge on polkadot parachain research
-Smoothly move governance from committee to DAO
-Crypto pools creation with non-pegged pairs
+- 2022 Q4: (Multichain and DAO)<Br/>
+Multichain/crosschain investigation<Br/>
+Native bridge on polkadot parachain research<Br/>
+Smoothly move governance from committee to DAO<Br/>
+Crypto pools creation with non-pegged pairs<Br/>

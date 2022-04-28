@@ -35,47 +35,58 @@ Yield farming
 Governance: users can lock their SRS to gain veSRS. VeSRS holders also share additional trading fees, and can vote on various pool parameters including pool weight, adding/removing metapools, gain boost factor, admin fee percentage, preferred rights for airdrop tokens, etc.
 
 - Project deployment step instructions.
-contract addresses:
+
+#### Interact with the swap contract
+
 Sirius4Pool: 0x417E9d065ee22DFB7CC6C63C403600E27627F333
 
-**Interact with the contracts**
+**API**
+
 swap
-`function swap(
+```
+function swap(
      uint8 tokenIndexFrom,
      uint8 tokenIndexTo,
      uint256 dx,
      uint256 minDy,
      uint256 deadline
- ) external returns (uint256);`
+ ) external returns (uint256);
+```
 
 addLiquidity
-`function addLiquidity(
+```
+function addLiquidity(
      uint256[] calldata amounts,
      uint256 minToMint,
      uint256 deadline
- ) external returns (uint256);`
+ ) external returns (uint256);
+```
 
 removeLiquidity
-`function removeLiquidity(
+```function removeLiquidity(
      uint256 amount,
      uint256[] calldata minAmounts,
      uint256 deadline
- ) external returns (uint256[] memory);`
+ ) external returns (uint256[] memory);
+```
  
 removeLiquidityOneToken
-`function removeLiquidityOneToken(
+```function removeLiquidityOneToken(
      uint256 tokenAmount,
      uint8 tokenIndex,
      uint256 minAmount,
      uint256 deadline
- ) external returns (uint256);`
+ ) external returns (uint256);
+```
  
- removeLiquidityImbalance
- `function removeLiquidityImbalance(
+removeLiquidityImbalance
+ ```
+ function removeLiquidityImbalance(
       uint256[] calldata amounts,
       uint256 maxBurnAmount,
       uint256 deadline
-  ) external returns (uint256);`
+  ) external returns (uint256);
+ ```
 
 ### Ecosystem Fit
 

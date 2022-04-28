@@ -1,5 +1,5 @@
 # Acala x PolkaWorld Dapp Hackathon 2022
-![1](https://user-images.githubusercontent.com/100191538/165687800-eff6b9c3-636c-4d3a-9d81-3c9bb6adf105.png)
+![11](https://user-images.githubusercontent.com/100191538/165702130-479af328-fbee-45d9-918d-1a1cd756d003.png)
 
 
 - Project Name: Sirius Finance
@@ -113,7 +113,7 @@ Statistics are currently in favor of more DeFi protocols gaining adoption and us
 
 Sirius Finance is designed to provide stablecoin services with low slippage and no impermanent loss, using an extremely user-friendly interface. We combined vetoken to our swap pool design, in hope of really building out a decentralized protocol. We value every user’s participation and contribution and that’s why we have the governance module, where veSRS holders can share additional trading fees, and vote on various pool parameters including pool weight, choosing metapools, boost factors and everything that can potentially determine final revenues, rewards and distributions. Based on Astar’s cross-chain nature, Sirius will connect dapps not only on Astar but the Polkadot ecosystem to get majority of the dapps connected to it to increase users, liquidity and TVL. In terms of technology, our protocol is going to be WASM and EVM-compatible, and implement XCMP on Polkadot, so that we could eventually connect stablecoins within and outside of the Polkadot ecosystem. 
 ![6](https://user-images.githubusercontent.com/100191538/165691241-17d3fab3-497c-43dc-ae2e-e92f818159c2.png)
-![7](https://user-images.githubusercontent.com/100191538/165691259-c5578cdd-9778-446e-814c-e65e0ca3babd.png)
+![22](https://user-images.githubusercontent.com/100191538/165702245-1eee0206-ab87-4fbb-bbab-d6bbd7d863ed.png)
 ## Team 👥
 ### Team members
 

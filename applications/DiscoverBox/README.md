@@ -2,8 +2,8 @@
 
 - Project Name:  DiscoverBox
 - Team Name: DiscoverLabs
-- Project online usage link: https://
-- Payment Address: Acala(aUSD) payment address.
+- Project online usage link: https://discovernetwork.io/
+- Payment Address: Acala(aUSD) payment address  23h1U1kp9wdo8UaEmitcxZNzheoQFveje3iwZ35z3hedv19d
 
 ## Project Overview
 
@@ -32,13 +32,15 @@ We want to make a cheaper, fairer, faster and safer GameFi product. It’s a goo
 ### Team members
 
 - Name of team leader
+- poeticboat, 
 - Names of team members
+- qwwind,jialuo
 
 ### Contact
 
 - Contact Name: Full name of the contact person in your team
 - Contact Email: Contact email  kericboat@gmail.com
-- Website:
+- Website: 
 
 ### Team's experience
 

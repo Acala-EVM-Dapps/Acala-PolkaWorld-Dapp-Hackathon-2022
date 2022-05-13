@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Cryptohub - Cryptocurrency HTML Template">
+        <meta name="keywords" content="bitcoin, bitcoin landing, blockchain, cryptocurrency, Cryptocurrency advisor, ICO Agency, ICO Consulting, ico landing, ico template, ico token, ico website">		
+        <!-- SITE TITLE -->
+        <title>MetaDefender HTML Template</title>			
+        <!-- Latest Bootstrap min CSS -->
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
+        <!-- Google Font -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  -->
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+        <!--- owl carousel Css-->
+        <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+        <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+        <!--slicknav Css-->
+        <link rel="stylesheet" href="assets/css/slicknav.css">		
+        <!-- MAGNIFIC CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- animate CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- Popup CSS -->
+        <!-- <link rel="stylesheet" href="assets/css/popup.css">			 -->
+        <!-- Style CSS -->		
+        <link rel="stylesheet" href="assets/css/style.css">			
+        <link rel="stylesheet" href="assets/css/responsive.css">			
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- css file for this page -->
+        <link rel="stylesheet" href="assets/css/launch.css">
+    </head>
+
+    <body data-spy="scroll" data-offset="80">
+
+        <!-- START PRELOADER -->
+		<div class="preloader">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>
+		<!-- END PRELOADER -->
+
+        <!-- START NAVBAR -->  
+		<div id="navigation" class="fixed-top navbar-light bg-faded site-navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-4">
+						<div class="site-logo">
+							<a class="navbar-logo" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+						</div>
+					</div>				
+					<div class="col-lg-9 col-md-9 col-sm-8">
+						<div class="header_right">
+							<nav id="main-menu" class="ml-auto">
+								<ul>
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./launch.html">Insurance</a></li>
+                                    <li><a href="./mining.html">Mining</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target="#myModal">NoahArk</a></li>
+                                    <li><a class="btn_one linkWallet"  id="btn-wallet" onclick="linkWallet()">Wallet</a></li>
+								</ul>
+							</nav>
+							<div id="mobile_menu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 	  
+		<!-- END NAVBAR -->
+
+        <div class="launch-buy-vover">
+            <div class="container">
+                <h2>Buy cover</h2>
+                <div class="tip">Choose the type of cover you want and get a quote.</div>
+            </div>
+        </div>
+
+        <div class="launch-main-wrap">
+            <div class="container">
+                <div class="launch-main">
+                    <div class="cover-type-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12 col-xs-12">
+                                <div class="cover-type-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/launch/trend.png" />
+                                    </div>
+                                    <h6>Premium rate</h6>
+                                    <span>
+                                        The premium rate is only an <strong>estimate</strong>, and there may be <strong>a slight slippage</strong> between the premium you ultimately need to pay. 
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 col-xs-12">
+                                <div class="cover-type-item">
+                                    <div class="img-wrap">
+                                        <img src="./assets/img/launch/ladybug.png" />
+                                    </div>
+                                    <h6>Protocol</h6>
+                                    <span>
+                                        Protect against failures in the <strong>individual protocol</strong> you have funds in, on <strong>any chain</strong>, but <strong>not</strong> in <strong>other protocols</strong> it uses.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 col-xs-12">
+                                <div class="cover-type-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon-wallet" width="5rem"><path class="primary" d="M2 5c0 1.1.9 2 2 2h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm16 11a2 2 0 100-4 2 2 0 000 4z" fill="#2D3A4A"></path><path class="secondary" d="M4 3h11a2 2 0 012 2v2H4a2 2 0 110-4z" fill="#BBBDCB"></path></svg>
+                                    <h6>Insurer</h6>
+                                    <span>
+                                        If you have <strong>full confidence</strong> in the <strong>security</strong> of a <strong>certain agreement</strong>, you can become its <strong>insurer</strong> and get <strong>benefits</strong>.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt-row">
+                            <span>Still don't have DEF yet? Get it here:</span>
+                            <a href="#" class="opt-row-btn wow bounceIn" data-wow-delay=".6s">Swap</a>
+                        </div>
+                        <div class="opt-row">
+                            <span>Provide capital for all protocols:</span>
+                            <a href="./provideCapital0.html" target="_blank" class="opt-row-btn wow bounceIn" data-wow-delay=".6s">Go</a>
+                        </div>
+                    </div>
+                    <div class="protocols">Protocols：</div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="hot">HOT</div>
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon1.png">
+                                    </div>
+                                    <div>
+                                        <div class="main-title">Top NFT protocols</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>All</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover0.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon2.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="main-title">Polkadot</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>Ethernum</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover opensea.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital opensea.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon3.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="main-title">Acala</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>Acala</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover axie.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital axie.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon4.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="main-title">Phala</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>Khala</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover flow.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital flow.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon5.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="main-title">BSC</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>BSC</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover BakerySwap.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital BakerySwap.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="card-item">
+                                <div class="card-item-top">
+                                    <div>
+                                        <img src="./assets/img/launch/icon6.png"/>
+                                    </div>
+                                    <div>
+                                        <div class="main-title">Ronin</div>
+                                        <div class="sub-title">Protocol</div>
+                                    </div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Chains:</div>
+                                    <div>Ronin</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Yearly cost:</div>
+                                    <div>10.0%</div>
+                                </div>
+                                <div class="card-item-row">
+                                    <div>Capacity:</div>
+                                    <div>100 DEF</div>
+                                </div>
+                                <a href="./buyCover Rarible.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Buy cover</a>
+                                <a href="./provideCapital Rarible.html" target="_blank" class="card-item-btn wow bounceIn" data-wow-delay=".6s">Provide capital</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START FOOTER -->
+		<div class="footer">
+			<div class="container">		
+				<div class="row">						
+					<div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+						<div class="footer_logo">
+							<img src="assets/img/logo-footer.png" alt="" />
+						</div>
+						<div class="language_selection">
+							<select aria-label="Language selector" class="languageselect">
+								<option selected="" value="en">English</option>
+								<option value="de">Deutsch</option>								
+							</select>
+						</div>
+						<div class="copyright">
+							<p>&copy; 2021 MetaDefender. All Rights Reserved.</p>
+						</div>
+						<div class="social_profile">
+							<ul>
+								<li><a href="https://t.me/CryptoProtector" class="f_twitter"><i class="fa fa-telegram"></i></a></li>
+                                <li><a href="#" class="f_facebook"><i class="fa fa-github" title="Facebook"></i></a></li>
+                                <li><a href="https://twitter.com/CPTProtector" class="f_twitter"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+                                <li><a href="https://cptprotector.medium.com" class="f_instagram"><i class="fa fa-medium" title="LinkedIn"></i></a></li>
+							</ul>
+						</div>							
+					</div><!--- END COL -->							
+				</div><!--- END ROW -->					
+			</div><!--- END CONTAINER -->
+		</div>
+		<!-- END FOOTER -->	
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body" style="text-align: center;">
+						Comming Soon 
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- Latest jQuery -->
+            <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <!-- Latest compiled and minified Bootstrap -->
+            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- modernizer JS -->		
+            <script src="assets/js/modernizr-2.8.3.min.js"></script>					
+        <!-- owl-carousel min js  -->
+            <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+        <!-- jquery counterup -->
+            <script src="assets/js/jquery.counterup.min.js"></script>	
+            <script src="assets/js/countdown.js"></script>	
+        <!-- jquery nav -->
+            <script src="assets/js/jquery.nav.js"></script>	
+        <!-- jquery.slicknav -->
+            <script src="assets/js/jquery.slicknav.js"></script>			
+        <!-- jquery.smooth-scroll -->
+            <script src="assets/js/smooth-scroll.js"></script>			
+        <!-- magnific-popup js -->               
+            <script src="assets/js/jquery.magnific-popup.min.js"></script>				
+        <!-- scrolltopcontrol js -->
+            <script src="assets/js/scrolltopcontrol.js"></script>	
+        <!-- WOW - Reveal Animations When You Scroll -->
+            <script src="assets/js/wow.min.js"></script>			
+        <!-- jquery leanModal min js -->
+            <script src="assets/js/jquery.leanModal.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		    <script language="javascript" type="text/javascript" src="IDOABI.js"></script>		
+        <!-- login js -->
+            <script src="assets/js/login.js"></script>
+        <!-- scripts js -->
+            <script src="assets/js/scripts.js"></script>
+
+            <script type="text/javascript">
+                //初始化web3
+                var web3Provider;
+                var web3js;
+
+                if(window.ethereum){
+                    web3Provider = window.ethereum;
+                }else if(window.web3){
+                    web3Provider = window.web3.currentProvider;
+                }else{
+                    web3Provider = new Web3.providers.HttpProvider("https://bsc-dataseed4.binance.org");
+                }
+
+			    web3js = new Web3(web3Provider);
+
+                //链接钱包的方法
+                function linkWallet() {
+                    if (ethereum) {
+                        web3Provider = ethereum;        
+                        // 新版需要请求用户授权
+                        try {
+                            ethereum.enable();
+                        } catch (error) {
+                            alert("用户取消授权");
+                            return;
+                        }
+                    } else if (web3) {
+                        // MetaMask Legacy dapp browsers...
+                        web3Provider = web3.currentProvider;
+                        console.log("web3.currentProvider:");
+                        console.log(web3.currentProvider);
+                    } else {
+                        web3Provider = new Web3.providers.HttpProvider("https://bsc-dataseed4.binance.org");
+                        console.log("https://bsc-dataseed4.binance.org");
+                    }
+                    web3js = new Web3(web3Provider);
+                }
+
+                ethereum.on('accountsChanged', function (accounts) {
+                    if(accounts.length != 0){
+                            let disLength = accounts[0].length
+                            document.getElementById("btn-wallet").innerText = accounts[0].substring(0,5)+'***'+accounts[0].substring(disLength-2,disLength);
+                           
+                        }else{
+                            document.getElementById("btn-wallet").innerText = "Wallet"; 
+                        }
+                });
+
+
+                async function getCurrentAddress(){
+                    let selectedAddress = await web3js.eth.getAccounts();
+                    if(selectedAddress.length<1){
+                        document.getElementById("btn-wallet").innerHTML = "Wallet";
+                    }else{
+                        let disLength = selectedAddress[0].length
+                        document.getElementById("btn-wallet").innerText = selectedAddress[0].substring(0,5)+'***'+selectedAddress[0].substring(disLength-2,disLength);
+                    }
+                }
+                
+                $(document).ready(function() {
+                    getCurrentAddress();
+                    getMyTotalMAGO();
+                    getClaimableMAGO();
+                });
+
+                async function getMyTotalMAGO(){
+                    let selectedAddress = await web3js.eth.getAccounts();
+                    if(selectedAddress.length<1){
+                        document.getElementById("MyBalance").innerText = "0";
+                    }else{
+                        IDOInstance.methods.claimableToken(selectedAddress[0]).call(function(error,result){
+                            if(!error){
+                                document.getElementById("MyBalance").innerText = result/1000000000000000000;
+                            }
+                        });
+                    }
+                }
+
+                async function getClaimableMAGO(){
+                    let selectedAddress = await web3js.eth.getAccounts();
+                    if(selectedAddress.length<1){
+                        document.getElementById("common").innerText = "0";
+                    }else{
+                        IDOInstance.methods.caculate(selectedAddress[0]).call(function(error,result){
+                            if(!error){
+                                document.getElementById("common").innerText = result/1000000000000000000;
+                            }
+                        });
+                    }
+                }
+
+                async function joinIDO(){
+                    let selectedAddress = await web3js.eth.getAccounts();
+                    if(selectedAddress.length<1){
+                        linkWallet();
+                    }else{
+                        var sender = selectedAddress[0];
+                        var inputValue = document.getElementById("joinValue").value;
+                        var sendValue = web3js.utils.toWei(inputValue,"ether");
+                        IDOInstance.methods.ido().send({
+                            from:sender,
+                            value:sendValue
+                        }).on("transactionHash",function(hash){
+                            console.log("transactionHash",hash);
+                        }).on("receipt",function(receipt){
+                            console.log("receipt",receipt);
+                            getMyTotalMAGO();
+                        });
+                    }
+                }
+
+                async function claimMAGO(){
+                    let selectedAddress = await web3js.eth.getAccounts();
+                    if(selectedAddress.length<1){
+                        linkWallet();
+                    }else{
+                        IDOInstance.methods.claim().send({
+                            from:selectedAddress[0]
+                            }).on("transactionHash",function(hash){
+                                console.log("transactionHash",hash);
+                            }).on("receipt",function(receipt){
+                                console.log("receipt",receipt);
+                                getClaimableMAGO();
+                            });
+                    }
+                }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "name": "dot-pay-client",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "mocha tests/*/*.test.js",
+    "build-test": "vue-tsc --noEmit && vite build --mode test",
+    "docker-build-app": "docker build -t sulnong/bytepay:app-v2 .",
+    "docker-push-app": "docker push sulnong/bytepay:app-v2",
+    "docker-build-server": "cd server && docker build -t sulnong/bytepay:server-v1 .",
+    "docker-push-server": "cd server && docker push sulnong/bytepay:server-v1"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^0.2.4",
+    "@tinymce/tinymce-vue": "^4.0.7",
+    "@types/nprogress": "^0.2.0",
+    "clipboard": "^2.0.8",
+    "dayjs": "^1.11.0",
+    "element-plus": "^1.3.0-beta.1",
+    "laf-client-sdk": "^0.7.0",
+    "mocha": "^9.1.4",
+    "moment": "^2.29.1",
+    "mongodb": "^4.3.1",
+    "nanoid": ">=3.1.31",
+    "nprogress": "^0.2.0",
+    "project-name-generator": "^2.1.9",
+    "qrcode.vue": "^3.3.3",
+    "ts-md5": "^1.2.10",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.6",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "axios": "^0.25.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "github-markdown-css": "^5.1.0",
+    "sass": "^1.45.2",
+    "typescript": "^4.4.4",
+    "unplugin-auto-import": "^0.5.5",
+    "unplugin-vue-components": "^0.17.11",
+    "vite": "^2.7.2",
+    "vite-plugin-md": "^0.12.4",
+    "vue-tsc": "^0.29.8"
+  }
+}

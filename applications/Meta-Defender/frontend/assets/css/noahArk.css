@@ -1,0 +1,69 @@
+#navigation{
+    background-color: #7868e6;
+}
+
+.noah-ark{
+    padding-top: 124px;
+    padding-bottom: 70px;
+}
+
+.descriton{
+    border: 1px solid rgb(228, 232, 239);
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.opt-row{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-item{
+    position: relative;
+    width: 260px;
+}
+
+.input-item input{
+    height: 90px;
+    padding: 8px 96px 8px 16px;
+    margin: 0px;
+    border-radius: 16px;
+    position: relative;
+    border: 1px solid rgb(228, 232, 239);
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    width: 100%;
+    appearance: none;
+    color: rgb(80, 80, 80);
+}
+
+.input-item input:focus{
+    outline: none;
+    box-shadow:  0 0 0 1px rgba(120, 104, 230, .8), 0 0 0 4px rgba(120, 104, 230, .5);
+}
+
+.input-item-unit{
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.submit-btn{
+    width: 120px;
+    line-height: 40px;
+    background: #7868e6;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 32px;
+    cursor: pointer;
+}

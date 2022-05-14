@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Cryptohub - Cryptocurrency HTML Template">
+    <meta name="keywords"
+        content="bitcoin, bitcoin landing, blockchain, cryptocurrency, Cryptocurrency advisor, ICO Agency, ICO Consulting, ico landing, ico template, ico token, ico website">
+    <!-- SITE TITLE -->
+    <title>MetaDefender HTML Template</title>
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">  -->
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+    <!--- owl carousel Css-->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <!--slicknav Css-->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Popup CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/popup.css">			 -->
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- css file for this page -->
+    <link rel="stylesheet" href="assets/css/buyCover.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="CPTABI.js"></script>
+    <script language="javascript" type="text/javascript" src="coverABI.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.26.1/axios.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-offset="80">
+
+    <!-- START PRELOADER -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- END PRELOADER -->
+
+    <!-- START NAVBAR -->
+    <div id="navigation" class="fixed-top navbar-light bg-faded site-navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    <div class="site-logo">
+                        <a class="navbar-logo" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-8">
+                    <div class="header_right">
+                        <nav id="main-menu" class="ml-auto">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./launch.html">Insurance</a></li>
+                                <li><a href="./mining.html">Mining</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#myModal">NoahArk</a></li>
+                                <li><a class="btn_one linkWallet" id="btn-wallet" onclick="linkWallet()">Wallet</a></li>
+                            </ul>
+                        </nav>
+                        <div id="mobile_menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+
+    <div class="launch-buy-vover">
+        <div class="container">
+            <h2>Buy cover</h2>
+            <div class="tip">Enter the amount you want to cover and for how long.</div>
+        </div>
+    </div>
+
+    <div class="buy-vover-main-wrap">
+        <div class="container">
+            <div class="buy-vover-main">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                        <div class="part-wrap">
+                            <div class="part-title">
+                                <h4>Quote details</h4>
+                            </div>
+                            <div class="part-content">
+                                <div>
+                                    This product <strong>covers </strong><strong>any token or combination of
+                                        tokens</strong> you have in the protocol. In case of a <strong>claim</strong>,
+                                    you'll receive the equivalent of your lost funds in <strong>DEF</strong> up to the
+                                    <strong>covered amount</strong>. The insured amount insured shall not exceed 5% of
+                                    the remaining capital.
+                                    <!-- Alternatively you can select <strong>DAI</strong>. --><br><br>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <div class="input-item amount-item">
+                                            <input id="amount-input" placeholder="0" oninput="changeAmountInput(event)">
+                                            <span class="input-item-title">Amount</span>
+                                            <div class="input-item-btns">
+                                                <button>Pay</button>
+                                            </div>
+                                            <div class="input-item-unit">DEF</div>
+                                        </div>
+                                        <div class="error-item amount-error">
+                                            <div class="dot"></div>
+                                            <span>Enter a valid value (e.g. 1999).</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <div class="input-item period-item">
+                                            <input id="period-input" placeholder="0" oninput="changePeriodInput(event)">
+                                            <span class="input-item-title">Period</span>
+                                            <div id="period-btns" class="input-item-btns"
+                                                onclick="clickPeriodBnts(event)">
+                                                <button value="90">90d</button>
+                                                <button value="180">180d</button>
+                                                <button value="360">360d</button>
+                                            </div>
+                                            <div class="input-item-unit">DAYS</div>
+                                        </div>
+                                        <div class="error-item period-error">
+                                            <div class="dot"></div>
+                                            <span>Enter a period, one of 90, 180 and 360!</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="part-wrap terms-wrap">
+                            <div class="part-title">
+                                <h4>Terms and conditions</h4>
+                            </div>
+                            <div class="terms-content">
+                                <div>Events covered:</div>
+                                <ul>
+                                    <li>contract bugs</li>
+                                    <li>economic attacks,server attack</li>
+                                    <li>governance attacks</li>
+                                </ul>
+                                <div>Supported projects:</div>
+                                <ul class="terms-content2">
+                                    <li>This is a special insurance sold for a limited time, and the objects of
+                                        protection are the high-quality public chain projects listed below. If any of
+                                        the following items has the risk mentioned in the previous article, the insured
+                                        person has the right to make a claim within the validity period of the policy.
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/launch/eth2.png">
+                                        <strong>Ethereum:</strong> Axie Infinity. 0xUniverse. NFT20. Async Art. OpenSea.
+                                        Meebits. Illuvium. CryptoKitties. MoonCatRescue. Ethermore. 0n1 Force.
+                                        LOSTPOETS. Decentraland. Enjin. Rarible.
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/projects/HECO.png">
+                                        <strong>Heco:</strong> StarLink. GameDAO. BeeSwap. SOVI. Evolution Land. NFT
+                                        HERO.
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/projects/BSC.png">
+                                        <strong>BSC:</strong> BakerySwap. CryptoBlades. MOBOX: NFT Farmer. CryptoBay.
+                                        Zoo-Crypto World. Crypto Zoon. BinaryX. My DeFi Pet. Polychain Monsters.
+                                        MythArt. RobotWars. Binemon. X World Games. HoneyFarm.
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/projects/Solana.png">
+                                        <strong>Solana:</strong> Aurory. Star Atlas. DeFiLand.
+                                    </li>
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/projects/FLOW.png">
+                                        <strong>Flow:</strong> NBA Top Shot
+                                    </li>
+                                    </li>
+                                    <li><img class="terms-contenteth" src="./assets/img/launch/polygon.svg">
+                                        <strong>Polygon:</strong> REVV Racing. Aavegotchi. Meeb Master. LoserChick. Neon
+                                        District.
+                                    </li>
+                                    <li><img class="terms-contenteth1" src="./assets/img/projects/WAX.png">
+                                        <strong>WAX:</strong> WAX Packs. Splinterlands. Alien Worlds. R-PLANET. Farmers
+                                        World. PROSPECTORS
+                                    </li>
+                                </ul>
+                                <div class="chains-row">
+                                    <!-- <img class="icon icon-eth2" src="./assets/img/launch/eth2.png"/>
+                                        <span>Ethereum:</span>
+                                        <img class="icon icon-polygon" src="./assets/img/launch/polygon.svg"/>
+                                        <span>Polygon</span>  -->
+
+                                </div>
+                                <div>Claiming:</div>
+                                <ul>
+                                    <li>Only policies within the validity period can apply for claims.</li>
+                                    <li>You should wait 72 hours after the event, so assessors have all details to make
+                                        a decision.</li>
+                                </ul>
+                                <div>If your claim is rejected, but the policy is still valid, you can still claim for a
+                                    second risk event.</div>
+                                <!--  <div class="check-row">Check out full details
+                                        <a target="_blank" href="https://nexusmutual.io/pages/ProtocolCoverv1.0.pdf" class="here-btn">
+                                            <span>here</span>
+                                            <svg t="1631090954297" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2161" width="16" height="16"><path d="M930.909091 605.090909v325.818182H93.090909V93.090909h325.818182v93.090909H186.181818v651.636364h651.636364V605.090909h93.090909z m-93.090909-350.231273L449.722182 642.955636 383.883636 577.163636 774.865455 186.181818H605.090909V93.090909h325.818182v325.818182h-93.090909v-164.049455z" fill="#7868e6" p-id="2162"></path></svg>
+                                        </a>.</div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="part-wrap summary-wrap">
+                            <div class="part-title">
+                                <h4>Summary</h4>
+                            </div>
+                            <div class="summary-top">
+                                <div>
+                                    <img src="./assets/img/launch/icon1.png" />
+                                </div>
+                                <div>
+                                    <div class="main-title">Top NFT protocols</div>
+                                    <div class="sub-title">Protocol</div>
+                                </div>
+                            </div>
+                            <div class="summary-row">
+                                <div>Capacity:</div>
+                                <div><span id="capacity">0</span> DEF</div>
+                            </div>
+                            <div class="summary-row">
+                                <div>You'll pay:</div>
+                                <div><span id="tentativeFee">0.0000</span> DEF</div>
+                            </div>
+                            <div id="get-policy-fee-btn" class="summary-btn wow bounceIn" data-wow-delay=".6s"
+                                onclick="getPolicyFee()">Get policy fee</div>
+                            <div id="buy-cover-btn" class="summary-btn wow bounceIn" data-wow-delay=".6s"
+                                onclick="buyCover()">Buy cover</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insurance-table-title">My Policies：</div>
+                <table class="insurance-table table table-bordered table-hover ">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Coverage</th>
+                            <th scope="col">Until</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>10DEF</td>
+                            <td>360</td>
+                            <td>true</td>
+                            <td><span class="cpt-btn claim-btn" onclick="claimApply()">claim</span></td>
+                            <td><span class="cpt-btn transfer-btn" onclick="clickTransferBtn()">transfer</span></td>
+                        </tr>
+                        <tr>
+                            <!-- <td colspan="6">暂无数据</td> -->
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- START FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                    <div class="footer_logo">
+                        <img src="assets/img/logo-footer.png" alt="" />
+                    </div>
+                    <div class="language_selection">
+                        <select aria-label="Language selector" class="languageselect">
+                            <option selected="" value="en">English</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; 2021 cryptoProtector. All Rights Reserved.</p>
+                    </div>
+                    <div class="social_profile">
+                        <ul>
+                            <li><a href="https://t.me/CryptoProtector" class="f_twitter"><i
+                                        class="fa fa-telegram"></i></a></li>
+                            <li><a href="#" class="f_facebook"><i class="fa fa-github" title="Facebook"></i></a></li>
+                            <li><a href="https://twitter.com/CPTProtector" class="f_twitter"><i class="fa fa-twitter"
+                                        title="Twitter"></i></a></li>
+                            <li><a href="https://cptprotector.medium.com" class="f_instagram"><i class="fa fa-medium"
+                                        title="LinkedIn"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+        </div>
+        <!--- END CONTAINER -->
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- check model -->
+    <div class="modal fade" id="checkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="text-align: center;">
+                    <span class="tip"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- transfer Model -->
+    <div class="modal fade" id="transferModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Transfer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="text-align: center;">
+                    Comming Soon
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest jQuery -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- owl-carousel min js  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- jquery counterup -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/countdown.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/js/jquery.nav.js"></script>
+    <!-- jquery.slicknav -->
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <!-- jquery.smooth-scroll -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- magnific-popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- scrolltopcontrol js -->
+    <script src="assets/js/scrolltopcontrol.js"></script>
+    <!-- WOW - Reveal Animations When You Scroll -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- jquery leanModal min js -->
+    <script src="assets/js/jquery.leanModal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+    <!-- login js -->
+    <script src="assets/js/login.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/scripts.js"></script>
+
+    <script type="text/javascript">
+        //初始化web3
+        var web3Provider;
+        var web3js;
+
+        if (window.ethereum) {
+            web3Provider = window.ethereum;
+        } else if (window.web3) {
+            web3Provider = window.web3.currentProvider;
+        } else {
+            web3Provider = new Web3.providers.HttpProvider("https://tc7-eth.aca-dev.network");
+        }
+
+        web3js = new Web3(web3Provider);
+
+        //链接钱包的方法
+        function linkWallet() {
+            if (ethereum) {
+                web3Provider = ethereum;
+                // 新版需要请求用户授权
+                try {
+                    //ethereum.enable();
+                    ethereum.request({ method: 'eth_requestAccounts' });
+                } catch (error) {
+                    alert("用户取消授权");
+                    return;
+                }
+            } else if (web3) {
+                // MetaMask Legacy dapp browsers...
+                web3Provider = web3.currentProvider;
+                console.log("web3.currentProvider:");
+                console.log(web3.currentProvider);
+            } else {
+                web3Provider = new Web3.providers.HttpProvider("https://tc7-eth.aca-dev.network");
+                console.log("https://tc7-eth.aca-dev.network");
+            }
+            web3js = new Web3(web3Provider);
+        }
+
+        ethereum.on('accountsChanged', function (accounts) {
+            if (accounts.length != 0) {
+                let disLength = accounts[0].length
+                document.getElementById("btn-wallet").innerText = accounts[0].substring(0, 5) + '***' + accounts[0].substring(disLength - 2, disLength);
+            } else {
+                document.getElementById("btn-wallet").innerText = "Wallet";
+            }
+        });
+
+        //实例化合约
+        var CPTInstance = new web3js.eth.Contract(CPTABI, "0x3561482c7cbaDa366bd8900f19b138cC6B26E309");
+        var coverInstance = new web3js.eth.Contract(coverABI, "0xC0B62c284f4a629F2E53516ce7F2f1e0A8dA82fd");
+
+        async function getCurrentAddress() {
+            let selectedAddress = await web3js.eth.getAccounts();
+            if (selectedAddress.length < 1) {
+                document.getElementById("btn-wallet").innerHTML = "Wallet";
+            } else {
+                let disLength = selectedAddress[0].length;
+                document.getElementById("btn-wallet").innerText = selectedAddress[0].substring(0, 5) + '***' + selectedAddress[0].substring(disLength - 2, disLength);
+            }
+        }
+
+        $(document).ready(function () {
+            getCurrentAddress();
+            getCapacity();
+
+        });
+
+        function getCapacity() {
+            coverInstance.methods._caculateUseableCapital().call(function (error, result) {
+                if (!error) {
+                    let finalResult = result / 1000000000000000000;
+                    document.getElementById("capacity").innerHTML = finalResult.toFixed(2);
+                }
+            });
+        }
+
+        function getPolicyFee() {
+            var capacity = $("#capacity").text() || 0;
+            var inputValue = document.getElementById("amount-input").value;
+            var coverPeriod = document.getElementById("period-input").value;
+            if (inputValue > (capacity * 0.05)) {
+                $('#checkModal').modal('show')
+                $('#checkModal .tip').text('coverage exceeds 5% of useable capital')
+                $('.amount-item').addClass('error-input-item')
+            } else if (coverPeriod != 90 && coverPeriod != 180 && coverPeriod != 360) {
+                $('#checkModal').modal('show')
+                $('#checkModal .tip').text('ilegal period')
+                $('.period-item').addClass('error-input-item')
+                $('.period-error').addClass('show-error-item')
+            } else {
+                var coverage = web3js.utils.toWei(inputValue, "ether");
+                coverInstance.methods.caculatePolicyFee(coverage, coverPeriod).call(function (error, result) {
+                    if (!error) {
+                        let finalResult = result / 1000000000000000000;
+                        document.getElementById("tentativeFee").innerHTML = finalResult.toFixed(4);
+                    }
+                });
+            }
+        }
+
+        async function buyCover() {
+            let selectedAddress = await web3js.eth.getAccounts();
+            if (selectedAddress.length < 1) {
+                linkWallet();
+            } else {
+                let allowanceOfCurrentAccount = await CPTInstance.methods.allowance(selectedAddress[0], "0xC0B62c284f4a629F2E53516ce7F2f1e0A8dA82fd").call();
+                if (allowanceOfCurrentAccount == 0) {
+                    let approveValue = 1000000000;
+                    let approveValueString = approveValue.toString();
+                    let approveValueToWei = web3js.utils.toWei(approveValueString, "ether");
+
+                    CPTInstance.methods.approve("0xC0B62c284f4a629F2E53516ce7F2f1e0A8dA82fd", approveValueToWei).send(
+                        { from: selectedAddress[0] },
+                        function (error, transactionHash) {
+                            if (!error) { console.log("transactionHash" + transactionHash); }
+                        });
+                } else {
+                    var inputValue = document.getElementById("amount-input").value;
+                    var coverage = web3js.utils.toWei(inputValue, "ether");
+                    var coverPeriod = document.getElementById("period-input").value;
+                    if (coverPeriod != 90 && coverPeriod != 180 && coverPeriod != 360) {
+                        $('#checkModal').modal('show')
+                        $('#checkModal .tip').text('ilegal period')
+                        $('.period-item').addClass('error-input-item')
+                        $('.period-error').addClass('show-error-item')
+                    } else {
+
+                        const url = 'https://tc7-eth.aca-dev.network';
+                        let response = await axios.post(url, {
+                            id: 0,
+                            jsonrpc: "2.0",
+                            method: "eth_getEthGas",
+                            params: []
+                        });
+                        let limit = response.data.result.gasLimit;
+                        let price = response.data.result.gasPrice;
+
+                        coverInstance.methods.insure(coverage, coverPeriod).send(
+                            {
+                                from: selectedAddress[0],
+                                gasPrice: price,
+                                gas: limit
+                            }
+                        ).on("transactionHash", function (hash) {
+                            console.log("transactionHash", hash);
+                        }).on("receipt", function (receipt) {
+                            console.log("receipt", receipt);
+                            //do something
+                        });
+                    }
+                }
+            }
+        }
+
+        async function claimApply() {
+            let selectedAddress = await web3js.eth.getAccounts();
+            if (selectedAddress.length < 1) {
+                linkWallet();
+            } else {
+                let _id = "4";
+
+                const url = 'https://tc7-eth.aca-dev.network';
+                let response = await axios.post(url, {
+                    id: 0,
+                    jsonrpc: "2.0",
+                    method: "eth_getEthGas",
+                    params: []
+                });
+                let limit = response.data.result.gasLimit;
+                let price = response.data.result.gasPrice;
+
+                coverInstance.methods.claimApplication(_id).send(
+                    {
+                        from: selectedAddress[0],
+                        gasPrice: price,
+                        gas: limit
+                    }
+                ).on("receipt", function (receipt) {
+                    console.log(receipt);
+                });
+            }
+        }
+
+
+        function changeAmountInput(event) {
+            let val = event.target.value
+            if (val == '' || (val && val >= 0 && !isNaN(Number(val)))) {
+                $('.amount-item').removeClass('error-input-item')
+                $('.amount-error').removeClass('show-error-item')
+            } else {
+                $('.amount-item').addClass('error-input-item')
+                $('.amount-error').addClass('show-error-item')
+            }
+        }
+
+        function changePeriodInput(event) {
+            let val = event.target.value
+            if (val == '' || val == 90 || val == 180 || val == 360) {
+                $('.period-item').removeClass('error-input-item')
+                $('.period-error').removeClass('show-error-item')
+            } else {
+                $('.period-item').addClass('error-input-item')
+                $('.period-error').addClass('show-error-item')
+            }
+        }
+
+        function clickPeriodBnts(event) {
+            let _val = event.target.value
+            if (_val) {
+                $('#period-input').val(_val)
+                $('.period-item').removeClass('error-input-item')
+                $('.period-error').removeClass('show-error-item')
+            }
+        }
+
+        function clickTransferBtn() {
+            $('#transferModal').modal('show')
+        }
+    </script>
+</body>
+
+</html>

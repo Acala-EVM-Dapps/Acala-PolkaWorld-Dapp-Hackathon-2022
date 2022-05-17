@@ -2,14 +2,16 @@
 
 ## Submitted Applications 📑
 
+(Ordered alphabetically)
+
+- [Bytepay](applications/bytepay/) -- Bytepay is a platform that supports paid tasks to complete open-source tasks on Github. And the project owner or maintainer can sell the opensource product like (bin files apk etc.) as NFT.
+- [Chemix](applications/chemix-ecosystem/) -- Chemix Ecosystem is an asset auction DEFI platform focusing on the blockchain level 1-2 market. Publish and participate in auction projects, and speed up asset circulation.
 - [Discover Box](applications/DiscoverBox/README.md) -- A Trojan war themed mystery box game deployed on Acala EVM+.
+- [Hotpot](applications/hotpot/) -- A codeless DAO launching toolkit based on bonding curve.
+- [Margole](applications/margole/) -- A decentralized project, including swap, leveraged trading, ETF trading and NFT. Build a complete DeSaaS platform to provide infrastructure and services for decentralized applications.
 - [MetaDefender](applications/Meta-Defender/) -- MetaDefender is a one-stop insurance that protects cross-chain diverse digital assets (including general tokens and NFTs), and provides financial products with contractual security. 
 - [MetaGamiMall](applications/application-template-project-MetaGamiMall%20Acala%20Meta%20Hub/) -- To build a Acala metaverse hub in Decentraland to promote Acala products and expand the use cases of aUSD.
 - [RainbowDAO](applications/RainbowDAO%20Protocol/) -- Multi-chain DAO Infrastructure Service Protocol.
-- [Bytepay](applications/bytepay/) -- Bytepay is a platform that supports paid tasks to complete open-source tasks on Github. And the project owner or maintainer can sell the opensource product like (bin files apk etc.) as NFT.
-- [Chemix](applications/chemix-ecosystem/) -- Chemix Ecosystem is an asset auction DEFI platform focusing on the blockchain level 1-2 market. Publish and participate in auction projects, and speed up asset circulation.
-- [Hotpot](applications/hotpot/) -- A codeless DAO launching toolkit based on bonding curve.
-- [Margole](applications/margole/) -- A decentralized project, including swap, leveraged trading, ETF trading and NFT. Build a complete DeSaaS platform to provide infrastructure and services for decentralized applications.
 - [Sirius Finance](applications/siriusFinance/) -- Sirius Finance is a cross-chain stablecoin AMM, that attracts and locks tremendous value through stablecoins with low-slippage trading costs, attractive APY for liquidity providers, and allows for more financial innovations or yield enhancements for Polkadot users.
 
 
